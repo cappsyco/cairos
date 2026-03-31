@@ -3,7 +3,7 @@
 name: cairos
 description: An OS named after my cat.
 base-image: quay.io/fedora-ostree-desktops/cosmic-atomic
-image-version: latest
+image-version: 43
 
 modules:
   - type: files
