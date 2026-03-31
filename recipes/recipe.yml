@@ -35,8 +35,15 @@ modules:
         scope: system
         install:
           - app.zen_browser.zen
-      - scope: user
-      
+          - best.ellie.StartupConfiguration
+          - com.github.PintaProject.Pinta
+          - dev.cappsy.CosmicExtAppletLogoMenu
+          - dev.edfloreshz.CosmicTweaks
+          - io.github.cosmic_utils.camera
+          - org.gnome.Loupe
+      - notify: false
+        scope: user
+
   - type: script
     scripts:
       - 00-image-info.sh
