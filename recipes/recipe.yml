@@ -17,15 +17,18 @@ modules:
         - atim/starship
     install:
       packages:
+        - vim
+        - gh
         - starship
     remove:
       packages:
         - firefox
         - firefox-langpacks
+        - ark
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         install:
           - app.zen_browser.zen
