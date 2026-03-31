@@ -46,8 +46,8 @@ modules:
         scope: user
         repo-url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
         repo-name: cosmic
-        install:
-          - dev.cappsy.CosmicExtAppletLogoMenu
+        #install:
+        #  - dev.cappsy.CosmicExtAppletLogoMenu
 
   - type: script
     scripts:
