@@ -42,8 +42,10 @@ modules:
           - org.gnome.Loupe
       - notify: false
         scope: user
-        repo-url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
-        repo-name: cosmic
+        repo:
+          url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
+          name: cosmic
+          title: "COSMIC"
         install:
           - dev.cappsy.CosmicExtAppletLogoMenu
 
